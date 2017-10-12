@@ -1,0 +1,52 @@
+{
+    "key": "group_597a197ccdd26",
+    "title": "Case Studies",
+    "fields": [
+        {
+            "key": "field_597a1a38499bb",
+            "label": "Case Study Number",
+            "name": "case_study_number",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "case-study-1": "Case Study 1",
+                "case-study-2": "Case Study 2",
+                "case-study-3": "Case Study 3"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-case-study.php"
+            }
+        ]
+    ],
+    "menu_order": 50,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "featured_image"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1501174847
+}

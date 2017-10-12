@@ -1,0 +1,153 @@
+{
+    "key": "group_58e7e9216a7f8",
+    "title": "Hero Settings",
+    "fields": [
+        {
+            "key": "field_577d04f33c122",
+            "label": "Hero Image",
+            "name": "hero_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_577d82238d6e8",
+            "label": "Hero Height",
+            "name": "hero_height",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "multiple": 0,
+            "allow_null": 0,
+            "choices": {
+                "height-10": "10%",
+                "height-20": "20%",
+                "height-30": "30%",
+                "height-40": "40%",
+                "height-50": "50%",
+                "height-60": "60%",
+                "height-70": "70%",
+                "height-80": "80%",
+                "height-90": "90%",
+                "height-100": "100%"
+            },
+            "default_value": [
+                "height-30"
+            ],
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "return_format": "value",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_577d84d728ee2",
+            "label": "Darken Image",
+            "name": "darken_image",
+            "type": "select",
+            "instructions": "This will provide better contrast between the white headline text and the background hero banner image. Higher percentage is darker.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "multiple": 0,
+            "allow_null": 0,
+            "choices": {
+                "1": "10%",
+                "2": "20%",
+                "3": "30%",
+                "4": "40%",
+                "5": "50%",
+                "6": "60%",
+                "7": "70%",
+                "8": "80%",
+                "9": "90%",
+                "10": "100%"
+            },
+            "default_value": [
+                4
+            ],
+            "ui": 0,
+            "ajax": 1,
+            "placeholder": "",
+            "return_format": "value",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_58e7eea899d1b",
+            "label": "Section Header Classes",
+            "name": "header_section_classes",
+            "type": "text",
+            "instructions": "Add these styles to the header section.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "default"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "template-page-raw-html.php"
+            },
+            {
+                "param": "page_template",
+                "operator": "!=",
+                "value": "template-case-study.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1501174118
+}
