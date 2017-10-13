@@ -1,12 +1,30 @@
 {
     "key": "group_59832d05c3e1e",
     "title": "Website-wide Info",
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-site-info"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
     "fields": [
         {
             "key": "field_5983057a8d873",
             "label": "Phone Number",
             "name": "phone_number",
             "type": "text",
+            "value": null,
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -26,6 +44,7 @@
             "label": "Email Address",
             "name": "email_address",
             "type": "text",
+            "value": null,
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -45,6 +64,7 @@
             "label": "LinkedIn",
             "name": "linkedin",
             "type": "url",
+            "value": null,
             "instructions": "Full LinkedIn URL",
             "required": 0,
             "conditional_logic": 0,
@@ -61,6 +81,7 @@
             "label": "Twitter",
             "name": "twitter",
             "type": "url",
+            "value": null,
             "instructions": "Full Twitter URL",
             "required": 0,
             "conditional_logic": 0,
@@ -73,22 +94,5 @@
             "placeholder": "https:\/\/twitter.com\/yourhandle"
         }
     ],
-    "location": [
-        [
-            {
-                "param": "options_page",
-                "operator": "==",
-                "value": "acf-options-site-info"
-            }
-        ]
-    ],
-    "menu_order": 0,
-    "position": "normal",
-    "style": "default",
-    "label_placement": "left",
-    "instruction_placement": "label",
-    "hide_on_screen": "",
-    "active": 1,
-    "description": "",
-    "modified": 1502126773
+    "modified": 1507841505
 }
